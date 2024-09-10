@@ -1,5 +1,5 @@
-import 'package:flutter_sweep/flutter_sweep.dart' as flutter_sweep;
+import 'package:fluttersweep/fluttersweep.dart' as fluttersweep;
 
 void main(List<String> arguments) {
-  flutter_sweep.run();
+  fluttersweep.run();
 }

@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:flutter_sweep/utils/dart_project_utils.dart';
+import 'package:fluttersweep/utils/dart_project_utils.dart';
 
 Future<void> sweep(List<Directory> dartProjects) async {
   try {

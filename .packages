@@ -50,4 +50,4 @@ watcher:file:///Users/tayan/.pub-cache/hosted/pub.dartlang.org/watcher-1.0.2/lib
 web_socket_channel:file:///Users/tayan/.pub-cache/hosted/pub.dartlang.org/web_socket_channel-2.4.0/lib/
 webkit_inspection_protocol:file:///Users/tayan/.pub-cache/hosted/pub.dartlang.org/webkit_inspection_protocol-1.2.0/lib/
 yaml:file:///Users/tayan/.pub-cache/hosted/pub.dartlang.org/yaml-3.1.1/lib/
-flutter_sweep:lib/
+fluttersweep:lib/
