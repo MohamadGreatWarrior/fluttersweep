@@ -7,7 +7,7 @@ environment:
   sdk: ^3.0.5
 
 executables:
-  fluttersweep: bin/flutter_sweep.dart
+  fluttersweep: bin/fluttersweep.dart
 
 dependencies:
   collection: ^1.18.0
