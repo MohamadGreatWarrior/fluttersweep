@@ -6,7 +6,9 @@ version: 1.0.0
 environment:
   sdk: ^3.0.5
 
-# Add regular dependencies here.
+executables:
+  fluttersweep: bin/flutter_sweep.dart
+
 dependencies:
   collection: ^1.18.0
   path: ^1.9.0
