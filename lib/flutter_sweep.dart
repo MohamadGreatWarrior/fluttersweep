@@ -6,6 +6,7 @@ Future<void> run() async {
   print('You may be faced with prompts to allow access to directories.');
   print('Please accept them so the command can proceed.');
   print('\n');
+  print('Searching for Flutter projects...');
 
   final fileSystemManager = FileSystemManager.impl();
   final directories = await fileSystemManager.listDirectories();
