@@ -12,7 +12,6 @@ class WindowsFileSystemManager extends FileSystemManager {
       var directory = Directory(drive);
 
       if (directory.existsSync()) {
-        print('Drive found: $drive');
         directories.addAll(_fetchDirectories(directory));
       }
     }
@@ -23,8 +22,6 @@ class WindowsFileSystemManager extends FileSystemManager {
   @override
   bool excludeDir(Directory dir) {
     final lastDir = basename(dir.path);
-
-    //TODO: Should the Users directory be excluded?
 
     switch (lastDir) {
       case 'AppData':
