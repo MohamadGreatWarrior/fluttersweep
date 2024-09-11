@@ -1,7 +1,7 @@
 name: fluttersweep
-description: A sample command-line application.
+description: Clean all your Flutter projects at once.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/MohamadGreatWarrior/fluttersweep
 
 environment:
   sdk: ^3.0.5
