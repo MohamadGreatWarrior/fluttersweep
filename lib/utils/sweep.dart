@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:fluttersweep/utils/dart_project_utils.dart';
+import 'package:fluttersweep/utils/flutter_command.dart';
 
 Future<void> sweep(List<Directory> dartProjects) async {
   try {
@@ -10,7 +11,7 @@ Future<void> sweep(List<Directory> dartProjects) async {
       print('Cleaning project: ${project.path} 🧹');
       print('-----------------');
       var result = await Process.run(
-        'flutter',
+        flutterCommand,
         ['clean'],
         workingDirectory: project.path,
       );
