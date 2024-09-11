@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" alt="fluttersweep" /> <br /><br />
+  <img src="https://raw.githubusercontent.com/MohamadGreatWarrior/fluttersweep/main/assets/fluttersweep_logo.png" alt="fluttersweep" /> <br /><br />
   <span>Clean all your Flutter projects at once</span>
 </p>
 
